@@ -105,7 +105,7 @@ public class CommunicationActionProcessor extends AbstractActionObserver
 	/**
      * Logs user map actions to PSLC datashop
      */
-    private void logToDataShop(Action a, String userName, String sessionID)c
+    private void logToDataShop(Action a, String userName, String sessionID)
     {
     	try
     	{
