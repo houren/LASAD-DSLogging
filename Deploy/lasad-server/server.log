@@ -1,0 +1,120 @@
+Configuration Home: /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/lasad-server/conf/default
+first-----dropSQLString.appendlasad.actions-----
+else-----dropSQLString.appendlasad.element_parent_mapping-----
+else-----dropSQLString.appendlasad.elements-----
+else-----dropSQLString.appendlasad.map_to_user_restriction-----
+else-----dropSQLString.appendlasad.maps-----
+else-----dropSQLString.appendlasad.ontologies-----
+else-----dropSQLString.appendlasad.revisions-----
+else-----dropSQLString.appendlasad.templates-----
+else-----dropSQLString.appendlasad.users-----
+-----Clear All executed-----
+-----Create Table-----
+Server successfully started!
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="Login" CATEGORY="Management">
+    <Parameter NAME="USERNAME" VALUE="d0" />
+    <Parameter NAME="PW" VALUE="d0" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="GetUsers" CATEGORY="Authoring">
+    <Parameter NAME="GET-ROLES" VALUE="TRUE" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="GetTemplates" CATEGORY="Management" />
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="List" CATEGORY="Management" />
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="TemplateDetails" CATEGORY="Management">
+    <Parameter NAME="TEMPLATE" VALUE="MBF-Model-Template" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="TemplateDetails" CATEGORY="Management">
+    <Parameter NAME="TEMPLATE" VALUE="MBF-Model-Template" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="CreateAndJoin" CATEGORY="Management">
+    <Parameter NAME="MAPNAME" VALUE="asdf" />
+    <Parameter NAME="ONTOLOGY" VALUE="Modified-Beardsley-Freeman-Model" />
+    <Parameter NAME="TEMPLATE" VALUE="MBF-Model-Template" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="CreateElement" CATEGORY="Map">
+    <Parameter NAME="TYPE" VALUE="box" />
+    <Parameter NAME="MAP-ID" VALUE="1" />
+    <Parameter NAME="ELEMENT-ID" VALUE="Premise" />
+    <Parameter NAME="POS-X" VALUE="2628" />
+    <Parameter NAME="POS-Y" VALUE="2288" />
+  </Action>
+  <Action COMMAND="CreateElement" CATEGORY="Map">
+    <Parameter NAME="TYPE" VALUE="text" />
+    <Parameter NAME="MAP-ID" VALUE="1" />
+    <Parameter NAME="PARENT" VALUE="LAST-ID" />
+    <Parameter NAME="ELEMENT-ID" VALUE="Premise-text" />
+    <Parameter NAME="USERNAME" VALUE="d0" />
+  </Action>
+  <Action COMMAND="CreateElement" CATEGORY="Map">
+    <Parameter NAME="TYPE" VALUE="awareness" />
+    <Parameter NAME="MAP-ID" VALUE="1" />
+    <Parameter NAME="PARENT" VALUE="LAST-ID" />
+    <Parameter NAME="ELEMENT-ID" VALUE="author" />
+    <Parameter NAME="USERNAME" VALUE="d0" />
+    <Parameter NAME="TIME" VALUE="CURRENT-TIME" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="CreateElement" CATEGORY="Map">
+    <Parameter NAME="TYPE" VALUE="box" />
+    <Parameter NAME="MAP-ID" VALUE="1" />
+    <Parameter NAME="ELEMENT-ID" VALUE="Conclusion" />
+    <Parameter NAME="POS-X" VALUE="2254" />
+    <Parameter NAME="POS-Y" VALUE="2643" />
+  </Action>
+  <Action COMMAND="CreateElement" CATEGORY="Map">
+    <Parameter NAME="TYPE" VALUE="text" />
+    <Parameter NAME="MAP-ID" VALUE="1" />
+    <Parameter NAME="PARENT" VALUE="LAST-ID" />
+    <Parameter NAME="ELEMENT-ID" VALUE="Conclusion-text" />
+    <Parameter NAME="USERNAME" VALUE="d0" />
+  </Action>
+  <Action COMMAND="CreateElement" CATEGORY="Map">
+    <Parameter NAME="TYPE" VALUE="awareness" />
+    <Parameter NAME="MAP-ID" VALUE="1" />
+    <Parameter NAME="PARENT" VALUE="LAST-ID" />
+    <Parameter NAME="ELEMENT-ID" VALUE="author" />
+    <Parameter NAME="USERNAME" VALUE="d0" />
+    <Parameter NAME="TIME" VALUE="CURRENT-TIME" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>
+processActionPackage -
+<ActionPackage>
+  <Action COMMAND="Logout" CATEGORY="Management">
+    <Parameter NAME="USERNAME" VALUE="d0" />
+  </Action>
+  <Parameter NAME="SESSION-ID" VALUE="84939A1B979CFD9F42CC2C45838E17151261095928" />
+</ActionPackage>

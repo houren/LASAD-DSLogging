@@ -1,0 +1,44 @@
+17-Aug-2016 15:57:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.23
+17-Aug-2016 15:57:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 19 2015 14:58:38 UTC
+17-Aug-2016 15:57:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.23.0
+17-Aug-2016 15:57:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Aug-2016 15:57:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11
+17-Aug-2016 15:57:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Aug-2016 15:57:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+17-Aug-2016 15:57:59.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+17-Aug-2016 15:57:59.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Aug-2016 15:57:59.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23
+17-Aug-2016 15:57:59.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23
+17-Aug-2016 15:57:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/conf/logging.properties
+17-Aug-2016 15:57:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Aug-2016 15:57:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/endorsed
+17-Aug-2016 15:57:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23
+17-Aug-2016 15:57:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23
+17-Aug-2016 15:57:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/temp
+17-Aug-2016 15:57:59.117 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/judy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+17-Aug-2016 15:57:59.282 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8099"]
+17-Aug-2016 15:57:59.318 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Aug-2016 15:57:59.325 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Aug-2016 15:57:59.328 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Aug-2016 15:57:59.329 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 764 ms
+17-Aug-2016 15:57:59.356 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Aug-2016 15:57:59.356 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.23
+17-Aug-2016 15:57:59.385 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/lasad.war
+17-Aug-2016 15:58:02.169 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Aug-2016 15:58:02.263 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/lasad.war has finished in 2,878 ms
+17-Aug-2016 15:58:02.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/docs
+17-Aug-2016 15:58:02.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/docs has finished in 22 ms
+17-Aug-2016 15:58:02.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/examples
+17-Aug-2016 15:58:02.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/examples has finished in 319 ms
+17-Aug-2016 15:58:02.607 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/host-manager
+17-Aug-2016 15:58:02.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/host-manager has finished in 33 ms
+17-Aug-2016 15:58:02.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/manager
+17-Aug-2016 15:58:02.674 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/manager has finished in 34 ms
+17-Aug-2016 15:58:02.674 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/ROOT
+17-Aug-2016 15:58:02.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/judy/Documents/CMU/LASAD/LASAD-upload/Deploy/apache-tomcat-8.0.23/webapps/ROOT has finished in 18 ms
+17-Aug-2016 15:58:02.699 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8099"]
+17-Aug-2016 15:58:02.708 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Aug-2016 15:58:02.709 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3379 ms
+17-Aug-2016 15:58:05.371 INFO [http-nio-8099-exec-4] de.novanic.eventservice.logger.DefaultServerLogger.log Server: Configuration changed - EventServiceConfiguration (Properties "eventservice.properties")
+  Min.: 0ms; Max.: 20000ms; Timeout: 90000ms
+17-Aug-2016 15:58:05.472 INFO [http-nio-8099-exec-4] de.novanic.eventservice.logger.DefaultServerLogger.log Server: Client "84939A1B979CFD9F42CC2C45838E17151261095928" initialized.
